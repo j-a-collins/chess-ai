@@ -1,0 +1,7 @@
+*.swp
+*.un~
+*.py~
+lichess-PGNs/
+*.pyc
+*.md~
+.gitignore~
