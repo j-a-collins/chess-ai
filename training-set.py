@@ -27,12 +27,10 @@ def get_training_data(number_of_samples = None):
     points = {'1/2-1/2':0, '0-1':-1, '1-0':1}
 
     # PGN data files sit inside the lichess-PGNs folder
-    # for dataset in os.listdir('lichess-PGNs'):
-    #     pgn = open(os.path.join('lichess-PGNs', dataset))
-    directory = 'C:\\Users\\jacka\\Documents\\git\\Github\\chess-ai\\lichess-PGNs'
-    for filename in os.listdir(directory):
-        pgn = open(os.path.join(directory, filename))
-
+    # May be better to use glob?
+    directory = 'C:\\Users\\jacka\\Documents\\git\\Github\\chess-ai\\lichess-PGNs\\'
+    for file_name in os.listdir(directory):
+        pgn = open(os.path.join(directory, file_name))
         while True:
             game = chess.pgn.read_game(pgn)
             if game is None:
@@ -62,10 +60,7 @@ def get_training_data(number_of_samples = None):
     return x, y
 
 if __name__ == "__main__":
-    # Currently hardcoded the number of PGNs
-    NUMBER_OF_PGNS = 3
-    # Need to find a better way to get through more data
+    NUMBER_OF_PGNS = 25000000 # Currently hardcoded the number of PGNs
     x, y = get_training_data(NUMBER_OF_PGNS)
-
-    # Use numpy to save several arrays into an uncompressed .npz
+    # Saves the arrays into an uncompressed .npz
     np.savez("processed/dataset_25M.npz", x, y)
