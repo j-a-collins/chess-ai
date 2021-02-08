@@ -1,4 +1,4 @@
-# Training a toy Neural Net to play chess
+# Training a Toy Neural Net to Play Chess
 
 Having recently been reading [Deep Thinking](https://www.goodreads.com/book/show/31934455-deep-thinking) by Garry Kasparov; this program
 will aim to explore some of the ideas he defines as Type A and Type B chess
