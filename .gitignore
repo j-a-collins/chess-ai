@@ -5,3 +5,4 @@ lichess-PGNs/
 *.pyc
 *.md~
 .gitignore~
+processed/dataset_25M.npz
