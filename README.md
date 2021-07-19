@@ -1,14 +1,14 @@
 # Training a Toy Neural Net to Play Chess
 
-Having recently been reading [Deep Thinking](https://www.goodreads.com/book/show/31934455-deep-thinking) by Garry Kasparov; this program
+Having recently finished reading [Deep Thinking](https://www.goodreads.com/book/show/31934455-deep-thinking) by Garry Kasparov; this program
 will aim to explore some of the ideas he defines as Type A and Type B chess
-programs which I thought were interesting to think about - type A being brute force, type B being intelligent choice of move. The main aim here is to:
+programs which I thought were interesting to think about - type A being a brute force approach, type B being an approach focused on an intelligent choice of move. The main aim here is to:
 
 1. Formulate a tree data structure for move-searching, and;
 2. Utilise a NN to collapse the search tree formulated in (1) based on
-historical games from a database of PGN chess games (from https://database.lichess.org).
+historical games from a database of PGN chess games (which I've taken from https://database.lichess.org).
 
-This model uses the [python-chess](https://python-chess.readthedocs.io) library, which is an excellent resource, recommended highly.
+This model uses the [python-chess](https://python-chess.readthedocs.io) library, which is an excellent resource for any similar projects, recommended highly.
 
 Current state: in progress.
 
