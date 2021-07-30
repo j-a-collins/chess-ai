@@ -10,10 +10,9 @@ historical games from a database of PGN chess games (which I've taken from https
 
 This model uses the [python-chess](https://python-chess.readthedocs.io) library, which is an excellent resource for any similar projects, recommended highly. I also use [PyTorch](https://pypi.org/project/torch/) for the neural network. PyTorch is killer, use it!
 
-Current state: in progress.
+Current state: Complete. May add a webscraper for the PGNs, also may not.
 
 Other cool stuff discussed on the way to completing this project:
 * The [Shannon number](https://en.wikipedia.org/wiki/Shannon_number)
 * The [oldest](https://www.chess2u.com/t8826-oldest-recorded-chess-game) notated game of chess
 * The possibility of training the NN from all the recorded games of a [single chess master](https://www.chessgames.com/perl/chessplayer?pid=15940)
-
