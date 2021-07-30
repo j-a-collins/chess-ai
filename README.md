@@ -21,6 +21,8 @@ Install/Run
 -----
 
 ```
+ pull down the repo
+ # Install dependencies:
  pip install torch torchvision numpy flask python-chess
  # Then run it:
  python play_game.py   # Flask opens on http://127.0.0.1:5000/
