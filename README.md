@@ -16,3 +16,12 @@ Other cool stuff discussed on the way to completing this project:
 * The [Shannon number](https://en.wikipedia.org/wiki/Shannon_number)
 * The [oldest](https://www.chess2u.com/t8826-oldest-recorded-chess-game) notated game of chess
 * The possibility of training the NN from all the recorded games of a [single chess master](https://www.chessgames.com/perl/chessplayer?pid=15940)
+
+Install/Run
+-----
+
+```
+ pip install torch torchvision numpy flask python-chess
+ # Then run it:
+ ./play.py   # open on http://127.0.0.1:5000/
+```
