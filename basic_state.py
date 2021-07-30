@@ -20,6 +20,8 @@ class State(object):
         else:
             self.board = board
 
+    def key(self):
+        return (self.board.board_fen(), self.board.turn, self.board.castling_rights, self.board.ep_square)
 
     def serialise(self):
         '''
@@ -69,7 +71,7 @@ class State(object):
         binary_state[4] = (self.board.turn * 1.0)
         return binary_state
 
-
+    
     def edges(self):
         '''
         Returns a dynamic list of legal moves
@@ -78,12 +80,6 @@ class State(object):
         return list(self.board.legal_moves)
 
 
-    def value(self):
-        # TO-DO: Neural net at this stage
-        return 1 # all board positions are equal
-
-
 if __name__ == "__main__":
     s = State()
-    #print(s.edges())
     print(s.serialise())
