@@ -23,5 +23,5 @@ Install/Run
 ```
  pip install torch torchvision numpy flask python-chess
  # Then run it:
- ./play.py   # open on http://127.0.0.1:5000/
+ ./play.py   # Flask opens on http://127.0.0.1:5000/
 ```
