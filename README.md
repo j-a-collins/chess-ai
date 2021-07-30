@@ -8,7 +8,7 @@ programs which I thought were interesting to think about - type A being a brute 
 2. Utilise a NN to collapse the search tree formulated in (1) based on
 historical games from a database of PGN chess games (which I've taken from https://database.lichess.org).
 
-This model uses the [python-chess](https://python-chess.readthedocs.io) library, which is an excellent resource for any similar projects, recommended highly.
+This model uses the [python-chess](https://python-chess.readthedocs.io) library, which is an excellent resource for any similar projects, recommended highly. I also use [PyTorch](https://pypi.org/project/torch/) for the neural network. PyTorch is killer, use it!
 
 Current state: in progress.
 
