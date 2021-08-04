@@ -1,0 +1,1 @@
+Training games go in this directory.
