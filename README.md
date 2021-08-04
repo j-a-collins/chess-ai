@@ -27,3 +27,6 @@ Install/Run
  # Then run it:
  python play_game.py   # Flask opens on http://127.0.0.1:5000/
 ```
+
+<img width=400px src="/static/img/screenshot/neural-net-chess-img.png" />
+
