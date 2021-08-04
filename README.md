@@ -10,7 +10,7 @@ historical games from a database of PGN chess games (which I've taken from https
 
 This model uses the [python-chess](https://python-chess.readthedocs.io) library, which is an excellent resource for any similar projects, recommended highly. I also use [PyTorch](https://pypi.org/project/torch/) for the neural network. PyTorch is killer, use it!
 
-Current state: Complete. May add a webscraper for the PGNs, also may not.
+Current state: In progress. Logging added, some colour schemas, design needs to be finished then the model could possibly deployed properly. Some minor bug fixes to come, any help is welcome.
 
 Other cool stuff discussed on the way to completing this project:
 * The [Shannon number](https://en.wikipedia.org/wiki/Shannon_number)
@@ -23,7 +23,7 @@ Install/Run
 ```
  pull down the repo
  # Install dependencies:
- pip install torch torchvision numpy flask python-chess
+ pip install torch torchvision numpy flask python-chess termcolor halo pickle
  # Then run it:
  python play_game.py   # Flask opens on http://127.0.0.1:5000/
 ```
