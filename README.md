@@ -25,8 +25,10 @@ Install/Run
  # Install dependencies:
  pip install torch torchvision numpy flask python-chess termcolor halo pickle
  # Then run it:
- python play_game.py   # Flask opens on http://127.0.0.1:5000/
+ python play_game.py
 ```
+
+and Flask opens on http://127.0.0.1:5000/
 
 <img width=400px src="https://raw.githubusercontent.com/j-a-collins/chess-ai/master/static/img/screenshot/neural-net-chess-img.JPG" />
 
